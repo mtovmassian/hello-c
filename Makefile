@@ -1,16 +1,16 @@
-CC = gcc
+CC := gcc
 
-CFLAGS = \
+CFLAGS := \
 	-std=c17 \
 	-g \
 	-Wall \
 	-Wextra \
 	-pedantic
 
-PATHB = bin/
+PATHB := bin/
 $(shell mkdir -p $(PATHB))
 
-EXEC = \
+EXEC := \
 	hello-world \
 	isatty
 
